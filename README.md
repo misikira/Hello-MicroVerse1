@@ -116,38 +116,7 @@ Key Features
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
-Install
-A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility,
-and more by checking your code for best practices and common errors.
-NOTE: If you are running on Windows, you need to initialize npm to create package.json file.
--npm init -y
--Run
--npm install --save-dev hint@7.x
--not sure how to use npm? Read this.
--Copy .hintrc to the root directory of your project.
--Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
--If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
-Run
-npx hint .
-Fix validation errors.
-Stylelint
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-Run
--npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
--not sure how to use npm? Read this.
--Copy .stylelintrc.json to the root directory of your project.
--Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
 
--If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
--Run npx stylelint "**/*.{css,scss}" on the root of your directory of your project.
-
-Fix linter errors.
-
--IMPORTANT NOTE: feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
-
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
